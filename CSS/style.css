@@ -1,36 +1,93 @@
-body{
-    background-color: black;
+body {
+  background-color: black;
 }
 
-ul.navbar-nav{
-    /* display: flex; */
-    /* justify-content: flex-end; */
+ul.navbar-nav {
+  /* display: flex; */
+  /* justify-content: flex-end; */
 
-    /* margin-left: auto; */
+  /* margin-left: auto; */
 }
 
-nav{
-    background-color:rgb(113, 109, 109);
+nav {
+  background-color: rgb(113, 109, 109);
 }
 
-.jumbotron{
-    position: relative;
-    top: 15px;
-    background-color: bisque;
-    
+.jumbotron {
+  position: relative;
+  top: 15px;
+  background-color: blanchedalmond;
 }
 
-.display-4{
-    justify-content: center;
+.display-4 {
+  justify-content: center;
 }
 
-.testament{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color:bisque;
-    width:300px;
-    position: relative;
-    left:315px;
+.testament-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.testament {
+  text-align: center;
+  background-color: bisque;
+  width: 300px;
+}
+
+div.dropdown-menu.show {
+  background-color: rgb(84, 81, 81);
+}
+
+.obecpicture {
+  height: 400px;
+  display: flex;
+}
+
+.btn-primary {
+  background-color: #d69e51;
+}
+
+.work {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  background-image: url("/Image/work.jpg");
+}
+.workcontent {
+  width: 40%;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.imagecontent {
+  position: relative;
+  width: 100%;
+  height: 80%;
+}
+
+.imagetext {
+  position: absolute;
+  text-align: center;
+  color: #f39058;
+  font-size: xx-large;
+}
+
+footer {
+  background-color: rgb(89, 89, 99);
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.finalgreeting {
+  position: relative;
+  color: whitesmoke;
+  width: 100%;
+  text-align: center;
+}
